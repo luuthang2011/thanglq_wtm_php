@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://todomvc.com/examples/flight/ -->
+<html lang="en" data-framework="flight"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Flight • Todo</title>
+		<link rel="stylesheet" href="libs/base.css">
+		<link rel="stylesheet" href="libs/index.css">
+	<style type="text/css"></style></head>
+	<body class="learn-bar">
+		<section id="todoapp">
+			<header id="header">
+				<h1>todos</h1>
+				<input id="new-todo" placeholder="What needs to be done?" autofocus="">
+			</header>
+			<section id="main">
+				<ul id="todo-list">
+					<li>
+						<div class="view">
+							<input class="toggle" type="checkbox">
+							<label>an choi de</label>
+							<button class="destroy"></button>
+						</div>
+					</li>
+					<?php include 'index.php';?>
+				</ul>
+			</section>
+			<footer id="footer"></footer>
+		</section>
+
+		<script src="libs/jquery.js"></script>
+	</body>
+</html>
